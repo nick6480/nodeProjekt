@@ -15,7 +15,7 @@ function loadXMLDoc() {
         if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
            if (xmlhttp.status == 200) {
                console.log(xmlhttp.responseText);
-               displayContent(xmlhttp.responseText)
+             
            }
            else if (xmlhttp.status == 400) {
               console.log('There was an error 400');
