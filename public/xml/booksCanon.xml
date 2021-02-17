@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE schema [
+<!ENTITY euro "&#8364;">
+]>
+<booksCanon
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="booksCanon.xsd">
+  <book ref="Llo08" mycanon="mdu,all">
+    <title>Learn How to Build Web Sites the Right Way from Scratch</title>
+    <edition>2</edition>
+    <authors>
+      <author>
+        <firstname>Ian</firstname>
+        <lastname>Lloyd</lastname>
+        </author>
+    </authors>
+    <publisher>
+      <name>SitePoint</name>
+      <year>2008</year>
+      <place>Collingwood, VIC, Australia</place>
+    </publisher>
+    <pages>470</pages>
+    <isbn>978-0980455274</isbn>
+    <price>17.97</price>
+    <currency>US$</currency>
+    <comments>
+      <comment>1. sem: Chapters 1-7</comment>
+    </comments>
+  </book>
+
+  <book ref="Shu08" mycanon="mdu">
+    <title>Learning ActionScript 3.0</title>
+    <edition>2</edition>
+    <authors>
+      <author>
+        <firstname>Rich</firstname>
+        <lastname>Shupe</lastname>
+      </author>
+      <author>
+        <firstname>Zevan</firstname>
+        <lastname>Rosser</lastname>
+      </author>
+    </authors>
+    <publisher>
+      <name>O'Reilly</name>
+      <year>2008</year>
+      <place>Sebastopol, CA, USA</place>
+    </publisher>
+    <pages>384</pages>
+    <isbn>978-0596527877</isbn>
+    <price>8.73</price>
+    <currency>US$</currency>
+    <comments>
+      <comment>1. sem: Chapters 1-7</comment>
+    </comments>
+  </book>
+
+  <book ref="Nix09" mycanon="mdu">
+    <title>Learning PHP, MySQL, and JavaScript</title>
+    <edition>2</edition>
+    <authors>
+      <author>
+        <firstname>Robin</firstname>
+        <lastname>Nixon</lastname>
+      </author>
+    </authors>
+    <publisher>
+      <name>O'Reilly</name>
+      <year>2009</year>
+      <place>Sebastopol, CA, USA</place>
+    </publisher>
+    <pages>528</pages>
+    <isbn>978-0596157135</isbn>
+    <price>23.99</price>
+    <currency>US$</currency>
+    <comments>
+      <comment>2. sem: Chapters 1-7, 11, 14-17</comment>
+      <comment>3. sem: Chapters 8-10</comment>
+    </comments>
+  </book>
+
+  <book ref="For04" mycanon="mdu">
+    <title>SQL in 10 Minutes</title>
+    <edition>3</edition>
+    <authors>
+      <author>
+        <firstname>Ben</firstname>
+        <lastname>Forta</lastname>
+      </author>
+    </authors>
+    <publisher>
+      <name>Sams Publishing</name>
+      <year>2004</year>
+      <place>Indianapolis, IN, USA</place>
+    </publisher>
+    <pages>256</pages>
+    <isbn>978-0672325670</isbn>
+    <price>14.97</price>
+    <currency>EU&#8364;</currency>
+    <comments>
+      <comment>3. sem: Chapters 1-17</comment>
+    </comments>
+  </book>
+
+</booksCanon>
